@@ -1,0 +1,6 @@
+:log warning "----------------INICIANDO IMPORTACION ------------------------";
+:log info "Limpiando queues";
+/queue simple remove [find];
+:delay 3s;
+:log info "Listo!";
+:log warning "Esperando archivo de importacion final >>>>>";
